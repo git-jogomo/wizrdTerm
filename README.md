@@ -74,7 +74,7 @@ Feel free to customize these configuration files to fit your workflow. Below are
 ### Tmux
 
 - **Prefix Key**: The default prefix key is set to `Ctrl-s`. You can change it in the `tmux.conf` file.
-- **Plugins**: This configuration includes TPM (Tmux Plugin Manager) and several plugins like `vim-tmux-navigator`, `tmux-themepack`, `tmux-resurrect`, and `tmux-continuum`.
+- **Plugins**: This configuration includes TPM (Tmux Plugin Manager, ensure to install this first beforehand) and several plugins like `vim-tmux-navigator`, `tmux-themepack`, `tmux-resurrect`, and `tmux-continuum`.
 
 ### WezTerm
 
