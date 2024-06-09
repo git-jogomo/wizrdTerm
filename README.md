@@ -1,0 +1,2 @@
+# wizrdTerm
+Custom terminal preferences
