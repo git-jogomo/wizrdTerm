@@ -17,12 +17,12 @@ Welcome to my personal configuration repository! This repository contains my con
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/git-jogomo/your-repo.git
+    git clone https://github.com/git-jogomo/wizrdTerm.git
     ```
 
 2. Copy the `tmux.conf` to your home directory:
     ```bash
-    cp your-repo/tmux.conf ~/.tmux.conf
+    cp wizrdTerm/tmux.conf ~/.tmux.conf
     ```
 
 3. Reload `tmux` configuration:
@@ -34,13 +34,13 @@ Welcome to my personal configuration repository! This repository contains my con
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/git-jogomo/your-repo.git
+    git clone https://github.com/git-jogomo/wizrdTerm.git
     ```
 
 2. Copy the `wezterm.lua` to the WezTerm configuration directory:
     ```bash
     mkdir -p ~/.config/wezterm
-    cp your-repo/wezterm.lua ~/.config/wezterm/wezterm.lua
+    cp wizrdTerm/wezterm.lua ~/.config/wezterm/wezterm.lua
     ```
 
 3. Restart WezTerm to apply the new configuration.
@@ -49,7 +49,7 @@ Welcome to my personal configuration repository! This repository contains my con
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/git-jogomo/your-repo.git
+    git clone https://github.com/git-jogomo/wizrdTerm.git
     ```
 
 2. Backup your existing `.zshrc` file:
@@ -59,7 +59,7 @@ Welcome to my personal configuration repository! This repository contains my con
 
 3. Copy the new `.zshrc` file:
     ```bash
-    cp your-repo/.zshrc ~/.zshrc
+    cp wizrdTerm/.zshrc ~/.zshrc
     ```
 
 4. Reload the `.zshrc` file:
@@ -73,18 +73,19 @@ Feel free to customize these configuration files to fit your workflow. Below are
 
 ### Tmux
 
-- **Prefix Key**: The default prefix key is `Ctrl-b`. You can change it in the `tmux.conf` file.
-- **Plugins**: Consider using `Tmux Plugin Manager (TPM)` to manage your tmux plugins easily.
+- **Prefix Key**: The default prefix key is set to `Ctrl-s`. You can change it in the `tmux.conf` file.
+- **Plugins**: This configuration includes TPM (Tmux Plugin Manager) and several plugins like `vim-tmux-navigator`, `tmux-themepack`, `tmux-resurrect`, and `tmux-continuum`.
 
 ### WezTerm
 
-- **Fonts and Colors**: Customize your fonts and color schemes in the `wezterm.lua` file.
-- **Keybindings**: Modify keybindings to improve your productivity.
+- **Fonts and Colors**: Customize your fonts and color schemes in the `wezterm.lua` file. The current configuration uses "JetBrains Mono" font and a specific color scheme.
+- **Keybindings**: Modify keybindings for functionalities like clearing the scrollback buffer.
 
 ### Zsh
 
-- **Plugins**: This configuration uses `oh-my-zsh` plugins. Customize the plugin list in the `.zshrc` file.
+- **Plugins**: This configuration uses `oh-my-zsh` with plugins like `git` and `zsh-autosuggestions`.
 - **Aliases**: Add your custom aliases and functions to streamline your terminal commands.
+- **Theme**: The `powerlevel10k` theme is used for a customizable and informative prompt.
 
 ## Contributions
 
