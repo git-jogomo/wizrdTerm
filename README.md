@@ -100,6 +100,7 @@ This repository is licensed under the MIT License. See the `LICENSE` file for mo
 - [tmux](https://github.com/tmux/tmux)
 - [WezTerm](https://github.com/wez/wezterm)
 - [zsh](https://github.com/zsh-users/zsh)
+- https://github.com/josean-dev/dev-environment-files/blob/main/.tmux.conf
 
 Thank you for checking out my configuration files! Happy coding!
 
