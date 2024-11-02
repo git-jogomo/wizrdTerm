@@ -1,0 +1,48 @@
+-- super computer theme
+
+config.colors = {
+    foreground = "#C3E8FF",      -- Cool, electric blue for text (futuristic and bright)
+    background = "#0A0F1D",      -- Deep space blue-black for a high-tech and mysterious atmosphere
+    cursor_bg = "#00E5FF",       -- Neon cyan for the cursor (glowing and futuristic)
+    cursor_border = "#00E5FF",   -- Matching border for a cohesive cursor look
+    cursor_fg = "#0A0F1D",       -- Same as background for cursor foreground
+    selection_bg = "#1B2A40",    -- Dark bluish-gray for selected text (subtle and techy)
+    selection_fg = "#C3E8FF",    -- Matches main text for consistency
+    ansi = {                     -- Basic 16 colors (8 normal and 8 bright)
+        "#1C1F26",              -- Dark gray (Black, terminal shell)
+        "#FF3355",              -- Vivid pinkish-red (urgent warnings)
+        "#28FFBF",              -- Neon green (activity indicators)
+        "#FFEB3B",              -- Bright yellow (important notifications)
+        "#3FA7D6",              -- Cool blue (command details)
+        "#D76DFF",              -- Electric purple (quantum processing highlights)
+        "#33FFC1",              -- Aqua teal (interface elements)
+        "#E6F5FF",              -- Light cyan (main foreground)
+    },
+    brights = {
+        "#3C4655",              -- Medium blue-gray (Bright Black, subdued highlights)
+        "#FF6B99",              -- Bright pink-red (critical alerts)
+        "#6AFFD9",              -- Bright neon green (success confirmation)
+        "#FFF176",              -- Light yellow (caution signals)
+        "#69CFFD",              -- Bright sky blue (clear interface elements)
+        "#F3A9FF",              -- Luminous magenta (system highlights)
+        "#7CFFF1",              -- Bright teal (energetic details)
+        "#FFFFFF",              -- Pure white (sharp contrasts for peak clarity)
+    },
+    tab_bar = {
+        background = "#0A0F1D",  -- Matches main background for seamless integration
+        active_tab = {
+            bg_color = "#3FA7D6",  -- Cool blue for active tab (high-tech feel)
+            fg_color = "#0A0F1D",  -- Deep blue-black for active tab text (high contrast)
+            intensity = "Bold",    -- Emphasizes active tab
+        },
+        inactive_tab = {
+            bg_color = "#1C1F26",  -- Dark gray for inactive tabs (blends into the background)
+            fg_color = "#A6C5E6",  -- Soft blue-gray for inactive text (still visible)
+        },
+        inactive_tab_hover = {
+            bg_color = "#2D3A50",  -- Dark blue-gray for hover effect (noticeable yet subtle)
+            fg_color = "#C3E8FF",  -- Matches main text for consistency on hover
+        },
+    },
+    split = "#28FFBF",            -- Neon green for split lines (techy and clear)
+}
